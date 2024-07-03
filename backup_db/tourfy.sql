@@ -31,6 +31,7 @@ CREATE TABLE `consulta` (
   `mensaje` varchar(1000) DEFAULT NULL,
   `tipo` varchar(50) DEFAULT NULL,
   `estado` tinyint(1) NOT NULL,
+  `suscripcion` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -41,7 +42,7 @@ CREATE TABLE `consulta` (
 
 LOCK TABLES `consulta` WRITE;
 /*!40000 ALTER TABLE `consulta` DISABLE KEYS */;
-INSERT INTO `consulta` VALUES (1,'Pepe','Argento','pepeargento@gmail.com','+5491122223333','Hola, queria saber acerca de...','1',1),(2,'Toribio','Sanchez','eltori@gmail.com','+5491144445555','Hola, quiero felicitarlos por el sitio web...','1',1),(3,'Marcela','Marolio','marcelamarolio@gmail.com','+5493513334444','Me gustaría reservar para ver OVNIS.','2',1),(4,'','','','','','',0),(5,'a','','','','','',0);
+INSERT INTO `consulta` VALUES (1,'Pepe','Argento','pepeargento@gmail.com','+5491122223333','Hola, queria saber acerca de...','consulta',1,NULL),(2,'Toribio','Sanchez','eltori@gmail.com','+5491144445555','Hola, quiero felicitarlos por el sitio web...','consulta',1,NULL),(3,'Marcela','Marolio','marcelamarolio@gmail.com','+5493513334444','Me gustaría reservar para ver OVNIS.','reserva',1,NULL),(4,'Aylen','St','aylenstutz2016@gmail.com','3517030939','Hola, quisiera saber qué sitios debo visitar si o si en dos días en Cba capital ','consulta',1,NULL),(5,'a','','','','','',0,NULL);
 /*!40000 ALTER TABLE `consulta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -80,4 +81,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-07-03  0:18:20
+-- Dump completed on 2024-07-03 10:18:52
