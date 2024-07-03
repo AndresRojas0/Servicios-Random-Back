@@ -14,7 +14,7 @@ class Destino(Tabla):
 class Consulta(Tabla):
     tabla = 'consulta'
     conexion = conexion
-    campos = ('id', 'nombre', 'apellido', 'email', 'telefono', 'mensaje', 'tipo', 'estado')
+    campos = ('id', 'nombre', 'apellido', 'email', 'telefono', 'mensaje', 'tipo', 'estado', 'suscripcion')
     
     def __init__(self, *args, de_bbdd=False):
         super().crear(args, de_bbdd)
