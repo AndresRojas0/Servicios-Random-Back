@@ -8,19 +8,17 @@ Servicios-Random-Back es una plataforma simil «back office» que permite tener 
 Clona este repositorio en tu host, como por ejemplo PythonAnywhere.
 
 # bash
-Copiar código
-git clone https://github.com/AndresRojas0/Servicios-Random-Back
-Navega hasta el directorio del proyecto.
+* Copiar código
+* git clone https://github.com/AndresRojas0/Servicios-Random-Back
+* Navega hasta el directorio del proyecto.
 
 # bash
-Copiar código
-cd mi-pagina-de-inicio
-Ejecuta el archivo main.py como aplicación flask.
+* Copiar código
+* cd mi-pagina-de-inicio
+* Ejecuta el archivo main.py como aplicación flask.
 
 # Despliegue
 El proyecto está desplegado y disponible en la siguiente URL:https://andresrojas.pythonanywhere.com/
-
-
 
 # Funcionalidades
 * Crear, modificar o eliminar registros en las tablas de la base de datos (CRUD).
