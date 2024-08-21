@@ -25,8 +25,7 @@ El proyecto está desplegado y disponible en la siguiente URL:https://andresroja
 * Acceder a los endpoints API.
 
 # Tecnologías Utilizadas
-* Flask
-* MySQL
+[![Languages](https://skillicons.dev/icons?i=python,flask,mysql)](https://skillicons.dev)
 
 # Autores
 Este proyecto fue desarrollado por Nolis Maldonado, Aylen Stutz y Andres Rojas. Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto.
